@@ -1,0 +1,15 @@
+# Environment files (secrets) — keep the examples
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Google ADK local state
+.adk/
+
+# macOS
+.DS_Store
